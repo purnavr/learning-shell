@@ -2,7 +2,7 @@
 
 shell scripting topics
 
-````
+```
 1. printing
 2. comments
 3. varibles
@@ -13,4 +13,11 @@ shell scripting topics
 8.Exit status
 9.quotes
 10.Redirectors
+12 redirectory
+```
+```
+V - Variables
+F - Functions
+L - Loops
+C- Conditions
 ```
