@@ -5,6 +5,7 @@ xyz() {
   echo First Argument - $1
   echo Second Argument - $2
   echo All Arguments $@
+  echo All Arguments star $*
   echo No Arguments $#
   a=300
   echo Value of a = $a
