@@ -4,6 +4,8 @@ xyz() {
   echo Hello from Function
   echo First Argument - $1
   echo Second Argument - $2
+  echo Second Argument - $3
+  echo Second Argument - $n
   echo All Arguments $@
   echo All Arguments star $*
   echo No Arguments $#
@@ -15,7 +17,7 @@ xyz() {
 ## Main Program
 ## Call a function
 a=120
-xyz 123 456
+xyz 123 456 789 10
 echo Value of b - $b
 
 abc() {
