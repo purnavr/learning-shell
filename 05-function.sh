@@ -4,7 +4,7 @@ xyz() {
   echo Hello from Function
   echo First Argument - $1
   echo Second Argument - $2
-  echo All Arguments $*
+  echo All Arguments $@
   echo No Arguments $#
   a=300
   echo Value of a = $a
@@ -16,3 +16,12 @@ xyz() {
 a=120
 xyz 123 456
 echo Value of b - $b
+
+abc() {
+  echo Hello
+  return 1
+  echo Bye
+}
+
+abc
+echo Exit Status of abc function =$?
