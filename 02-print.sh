@@ -17,3 +17,9 @@ echo Hello World
 
 echo -e "\e[36mHello World \e[0m"
 echo Hello World
+
+
+
+# Some times we need to print multiple lines
+echo -e "line1\nline2\nline3"
+# \e for clor, same \n for new line
