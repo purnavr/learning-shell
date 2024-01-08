@@ -26,4 +26,4 @@ abc() {
 }
 
 abc
-#echo Exit Status of abc function =$?
+echo Exit Status of abc function =$?
