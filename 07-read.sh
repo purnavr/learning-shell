@@ -1,4 +1,4 @@
-# Whwn we need a prompt for input
+# When we need a prompt for input
 
 read -p 'enter your name:' name
 
