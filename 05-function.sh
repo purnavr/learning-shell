@@ -22,7 +22,7 @@ echo Value of b - $b
 
 abc() {
   echo Hello
-  return 1
+  return 2
   echo Bye
 }
 
