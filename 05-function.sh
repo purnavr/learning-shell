@@ -21,7 +21,7 @@ echo Value of b - $b
 
 abc() {
   echo Hello
-  return 123
+  return 1
   echo Bye
 }
 
