@@ -7,8 +7,8 @@ fi
 
 if [ "${number}" -ge 10 ]; then
   echo number is "$1"
-else
-  echo number is 10
+#else
+#  echo number is 10
 fi
 
 if [ "${string}" == abc ]; then
