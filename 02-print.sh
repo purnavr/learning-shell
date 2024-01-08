@@ -15,7 +15,7 @@ echo Hello World
 # \e[0m -> zero code is going to reset the color, Meaning if we enable color for sure we need to disable it, otherwise the color will continue on screen.
 # we can use double or single quotes, However double quotes are pref
 
-echo -e "\e[33mHello World \e[0m"
+echo -e "\e[36mHello World \e[0m"
 echo Hello World
 
 
