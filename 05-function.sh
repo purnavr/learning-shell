@@ -4,8 +4,7 @@ xyz() {
   echo Hello from Function
   echo First Argument - $1
   echo Second Argument - $2
-  echo Second Argument - $3
-  echo Second Argument - $n
+  echo Third Argument - $3
   echo All Arguments $@
   echo All Arguments star $*
   echo No Arguments $#
