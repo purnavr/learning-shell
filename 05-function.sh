@@ -21,9 +21,9 @@ echo Value of b - $b
 
 abc() {
   echo Hello
-  return
+  return 123
   echo Bye
 }
 
 abc
-echo Exit Status of abc function =$?
+#echo Exit Status of abc function =$?
